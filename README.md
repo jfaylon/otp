@@ -31,3 +31,6 @@ npm run test
 - for Node.js, the IOStream is a `Readable` Stream with `readOTP` as a function. It can be extended to use other streams such as `process.stdin` or other ways of input such as `socket.io`
 - Internal functions are exposed for unit testing purposes.
 - Basic Email Address validation and domain check is implemented. If allowed, validation libraries such as `validator` will be installed.
+
+## Possible Improvements
+- Configurable timeouts, domains, and attempts
