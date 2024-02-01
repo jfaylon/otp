@@ -1,0 +1,17 @@
+{
+  "name": "otp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:console",
+    "start:console": "node console",
+    "test": "jest --detectOpenHandles",
+    "coverage": "jest --coverage --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
